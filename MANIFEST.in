@@ -17,3 +17,10 @@ prune share/jupyterhub/static/components/jquery/external
 prune share/jupyterhub/static/components/jquery/src
 prune share/jupyterhub/static/components/moment/lang
 prune share/jupyterhub/static/components/moment/min
+
+# AmbisGIS archive packaging: owned tracked runtime data
+include jupyterhub/alembic.ini
+include jupyterhub/alembic/README
+include jupyterhub/alembic/script.py.mako
+include jupyterhub/event-schemas/server-actions/v1.yaml
+include jupyterhub/singleuser/templates/page.html
